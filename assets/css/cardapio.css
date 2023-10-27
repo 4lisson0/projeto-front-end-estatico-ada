@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Special+Elite&display=swap');
+
+h1,
+h5 {
+    color: #404040;
+}
+
+.bg-red {
+    background-color: #E64848;
+}
+
+.cardapio {
+    margin-top: 150px;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.row {
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card {
+    font-family: 'Poppins';
+    font-weight: 300;
+    width: 18rem;
+}
+
+footer {
+    background-color: #E64848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.titulo-cardapio h1 {
+    text-align: center;
+    color: #bf0413;
+}
+
+
+@media (max-width: 767.98px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

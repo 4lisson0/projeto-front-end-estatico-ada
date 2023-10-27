@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Special+Elite&display=swap');
+
+.bg-red {
+    background-color: #E64848;
+}
+
+.t-color {
+    color: white;
+}
+
+.banner {
+    margin-top: 90px;
+    height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../banner.png') center center/cover no-repeat;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.ifood {
+    margin-top: 15px;
+    padding: 30px;
+    text-align: center;
+    color: #404040;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p1 {
+    width: 500px;
+}
+
+.ifood {
+    height: 400px;
+}
+
+.ifood h1 {
+    color: #C21010;
+}
+
+.feedbacks {
+    height: 400px;
+    padding: 30px;
+    background-color: #9c0f0f;
+}
+
+
+.feedbacks h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.w-100 {
+    width: 1550px;
+    height: 530px;
+    object-fit: cover;
+}
+
+
+.produtos h2 {
+    text-align: center;
+    color: #C21010;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    flex-direction: column;
+}
+
+#feedbackCarousel .carousel-control-prev,
+#feedbackCarousel .carousel-control-next {
+    color: red !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 45px;
+}
+
+.catalogo {
+    margin: 2rem 0;
+}
+
+.row {
+    gap: 20px;
+}
+
+.item {
+    font-family: 'Poppins';
+    font-weight: 300;
+    width: 18rem;
+}
+
+.btn-cardapio {
+    background-color: #BF0413;
+    border-radius: 5px;
+}
+
+.restaurantes {
+    margin-bottom: 60px;
+}
+
+.footer {
+    background-color: #E64848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .catalogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    .ifood img {
+        display: none;
+    }
+
+    .catalogo {
+        margin-bottom: 30px;
+        height: 1200px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+    }
+}

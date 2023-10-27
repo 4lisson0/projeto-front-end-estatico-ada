@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Special+Elite&display=swap');
+
+
+.bg-red {
+    background-color: #E64848;
+}
+
+.section {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #404040;
+}
+
+.btn-group {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    background-color: #E64848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        display: none;
+    }
+
+    form {
+        width: 100vw;
+
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

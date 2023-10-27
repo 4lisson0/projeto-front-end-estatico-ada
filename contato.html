@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Entre em contato conosco. Utilize nosso formulário de contato para fazer perguntas, fornecer feedback ou solicitar suporte. Estamos aqui para ajudar e ouvir suas opiniões." />
+  <link rel="stylesheet" href="./assets/css/contato.css">
+  <link rel="shortcut icon" href="assets/favicon/form.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Formulário</title>
+</head>
+
+<body onchange="mudaJanela()">
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red fixed-top p-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="./assets/logo-ifood.png" width="100" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-white">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="cardapio.html">Cardápio</a>
+            <a class="nav-item nav-link active" href="#">Contato</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="section">
+    <main>
+      <img class="img" src="assets/img-forms.jpg" alt="Imagem de um entregador">
+    </main>
+    <section>
+      <form onsubmit="onsubmit()" id="formulario" style="display: flex; justify-content: center;">
+        <fieldset style="margin: 2rem; width: 100%;">
+          <legend>Estamos aqui para você</legend>
+          <p>Compartilhe seu feedback ou esclareça suas dúvidas</p>
+          <div class="col">
+            <label for="formGroupExampleInput" class="form-label">Nome</label>
+            <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" required>
+          </div>
+          <div class="col">
+            <label for="formGroupExampleInput" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome" required>
+          </div>
+          <div class="col">
+            <div class="col">
+              <label for="formGroupExampleInput" class="form-label">E-mail</label>
+              <input type="email" class="form-control" placeholder="email@address.com" aria-label="E-mail" required>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <label for="formGroupExampleInput" class="form-label">Mensagem</label>
+              <textarea class="form-control" style="height: 14rem;" placeholder="Mensagem" aria-label="textarea"
+                required></textarea>
+            </div>
+          </div>
+          <div class="btn-group">
+            <button class="btn" style="background-color: #BF0413; color: #f2f2f2; border-radius: 5px;"
+              type="submit">Enviar</button>
+            <button class="btn" style="background-color: #BF0413; color: #f2f2f2; border-radius: 5px;"
+              type="reset">Reset</button>
+          </div>
+          <div class="alert alert-success" id="alerta" style="display: none;" role="alert">
+            Formulário enviado com sucesso!
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2023 ifood.com</p>
+      <ul class="footer-list">
+        <li>Email: ifood@example.com.br</li>
+        <li>Telefone: 4002-8922</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
