@@ -26,7 +26,7 @@ Neste projeto final, da turma #VemSerTech, que é uma parceria entre o iFood e a
 
 ## 🌐 Link para visualização
 
-https://4lisson0.github.io/4lisson0-projeto-front-end-estatico-ada/
+https://4lisson0.github.io/projeto-front-end-estatico-ada/
 
 ## :memo: Licença
 
